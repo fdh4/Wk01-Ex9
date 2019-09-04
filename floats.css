@@ -4,7 +4,7 @@
 
 * {
   box-sizing: border-box;
-  text-align: left;
+  text-align: center;
 }
 
 body {
@@ -17,26 +17,58 @@ header {
   background: #ccc;
 }
 
-section {
-}
-
 #left {
+  width: 33.3%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #666;
+  float: left;
 }
 
 #middle {
+  width: 33.3%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #888;
+  float: left;
+
 }
 
 #right {
+  width: 33.3%;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #666;
+  float: left;
+
 }
 
+/* ToDo:
+/* need to float aside and division inside of full (text is <section> #666);
+   adjusting height, padding, margin, align */
+/* need to use clear appropriately */
+/* refer to readme that accompanies the exercise for elements to be used*/
+
 #full {
+  height: 200 px;
+  background: #eee;
 }
 
 #division {
+  background: #6ea3da;
 }
 
 aside {
+  color: #333;
+  background: #fff;
 }
 
 footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
 }
