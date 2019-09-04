@@ -8,6 +8,9 @@
 }
 
 body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
 }
 
 header {
@@ -17,10 +20,13 @@ header {
   background: #ccc;
 }
 
-#left {
-  width: 33.3%;
+section {
   padding: 20px;
   margin-bottom: 20px;
+  background: #ccc;
+}
+#left {
+  width: 33.3%;
   color: white;
   background: #666;
   float: left;
@@ -28,8 +34,6 @@ header {
 
 #middle {
   width: 33.3%;
-  padding: 20px;
-  margin-bottom: 20px;
   color: white;
   background: #888;
   float: left;
@@ -38,12 +42,9 @@ header {
 
 #right {
   width: 33.3%;
-  padding: 20px;
-  margin-bottom: 20px;
   color: white;
   background: #666;
   float: left;
-
 }
 
 /* ToDo:
@@ -53,17 +54,26 @@ header {
 /* refer to readme that accompanies the exercise for elements to be used*/
 
 #full {
-  height: 200 px;
+  width: 100%;
   background: #eee;
+  clear: both;
+  overflow: auto;
 }
 
 #division {
+  margin-top: 20px;
+  padding: 20px;
   background: #6ea3da;
 }
 
 aside {
+  width: 33%;
+  height: 200px;
+  margin-left: 30px;
+  padding: 20px;
   color: #333;
   background: #fff;
+  float: left;
 }
 
 footer {
@@ -71,4 +81,5 @@ footer {
   margin-bottom: 20px;
   color: #333;
   background: #ccc;
+  clear: both;
 }
